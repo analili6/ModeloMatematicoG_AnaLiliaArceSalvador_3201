@@ -1,0 +1,20 @@
+% Título: Funcion Lineal
+	% Descripción: Script para graficar la funcion y = 2x ^ 2 + x-1
+	% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+	% Fecha: 20210415
+  
+  % limpiar variables
+		 claro
+	% Ejemplo y = 2x. ^ 2 + x-1
+	% Rango de -10..10 en i = 1
+		x = -10: 0,2: 10;
+	% Valor de la función
+	 	y = 2 * (x. ^ 2) + x-1;
+	% Dibujar x, y
+		 plot (x, y);
+	% Titulo
+		título ("y = 2x ^ 2 + x-1");
+	% Etiqueta para x
+		xlabel ("x");
+	% Etiqueta para y
+		ylabel ("f (x)");
