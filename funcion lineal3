@@ -1,0 +1,20 @@
+% Título: Modelo Matematico
+	% Descripción: Script para graficar la funcion y = v (5 & 2x)
+	% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+	% Fecha: 20210415
+  
+  % limpiar variables
+		 claro
+	% Ejemplo y = 2-v (4x-2)
+	% Rango de -10..10 en i = 1
+		x = -10: 0,1: 10;
+	% Valor de la función
+	 	y = raíz n (2 * (x), 5);
+	% Dibujar x, y
+		 plot (x, y);
+	% Titulo
+		título ("y = v (5 y 2x)");
+	% Etiqueta para x
+		xlabel ("x");
+	% Etiqueta para y
+		ylabel ("f (x)");
